@@ -3,8 +3,11 @@ import App from './App';
 
 import './styles/normalize.scss';
 import './styles/global.scss';
+import React from 'react';
 
 ReactDOM.render(
-  <App />,
+  <React.StrictMode>
+    <App /> 
+  </React.StrictMode>,
   document.querySelector('#root')
 );
